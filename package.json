@@ -1,7 +1,6 @@
 {
   "name": "project-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "gulp": "^4.0.2"
@@ -18,5 +17,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-derev/project-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-derev/project-2/issues"
+  },
+  "homepage": "https://github.com/Alex-derev/project-2#readme",
+  "description": ""
 }

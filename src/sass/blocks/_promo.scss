@@ -2,4 +2,43 @@
     min-height: 650px;
     padding: 21px 0 93px 0;
     background: url('../../img/bg/girl.jpg') center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header{
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+            }
+    &__subheader{
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &_icons{
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        width: 106px;
+        text-align: center;
+    }
+    &_link{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        margin-top: 18px;
+        a {
+            color: white;
+            text-decoration: uppercase;
+        }
+    }
 }
