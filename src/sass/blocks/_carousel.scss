@@ -6,11 +6,11 @@
         margin: 0 auto;
         background-color: white;
     }
-    .prev, .next{
+    .slick-prev, .slick-next{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        left: -66px;
+        left: -90px;
         background-color: white;
         border: none;
         img{
@@ -18,14 +18,16 @@
             height: 50px;
         }
     }
-    .next{
-        right: -66px;
+    .slick-next{
+        right: -90px;
         left:auto;
     }
-    .tns-item{
+    .slick-slide{
         img {
-            display: block;
-            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            
         }
 
     }

@@ -1,0 +1,111 @@
+@media(max-width: 1200px){
+    .container{
+        max-width: 860px;
+    }
+    .catalog{
+        &__content{
+            justify-content: center;
+        }
+        &-item{
+            margin-right: 10px;
+        }
+    }
+    .pageup{
+
+    }
+}
+@media(max-width: 991px){
+    .container{
+        width: 600px;
+    }
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 38px;
+        }
+        &__subheader{
+            font-size: 21px;
+        }
+    }
+    .advantages{
+        &__items{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item{
+            margin-bottom: 70px;
+            &:nth-child(3){
+                margin-bottom: 0;
+            }
+            .name{
+                margin-top: 20px;
+            }
+            .descr{
+                margin-top: 15px;
+            }
+        }
+
+    }
+    .consultation{
+        .title_left{
+            font-size: 30px;
+        }
+        .feed-form{
+            width: 260px;
+        }
+        .button_submit{
+            width: 260px;
+        }
+    }
+ .carousel{
+    .slick-next, .slick-prev{
+         display: none;
+    }
+    &__inner{
+         img{
+             width: 30%;
+             margin: 0;
+         }
+          .slick-dots{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 10px;
+            padding: 0;
+              li{
+                  width: 50px;
+                  height: 20px;
+                  background-color: white;
+                  border: 2px solid black;
+                  margin-right: 2px;
+                  &:nth-child(3){
+                    margin-right: 0;
+                  }
+                  button{
+                    display: none;
+                  }
+                 }
+                 .slick-active{
+                    background-color: $main-color;
+              }
+          }
+     }
+
+ }
+    .title{
+        font-size: 25px;
+    }
+    .pageup{
+        img{
+            display: none;
+        }
+        
+    }
+}
+
+
