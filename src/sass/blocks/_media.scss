@@ -10,6 +10,11 @@
             margin-right: 10px;
         }
     }
+    .promo{
+        .button_main{
+            width: 250px;
+        }
+    }
     .pageup{
 
     }
@@ -24,6 +29,9 @@
         }
     }
     .promo{
+        .button_main{
+            width: 250px;
+        }
         &__header{
             font-size: 38px;
         }
@@ -62,39 +70,40 @@
             width: 260px;
         }
     }
- .carousel{
+    .carousel{
     .slick-next, .slick-prev{
          display: none;
     }
-    &__inner{
-         img{
-             width: 30%;
-             margin: 0;
-         }
-          .slick-dots{
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-            margin-top: 10px;
-            padding: 0;
-              li{
-                  width: 50px;
-                  height: 20px;
-                  background-color: white;
-                  border: 2px solid black;
-                  margin-right: 2px;
-                  &:nth-child(3){
-                    margin-right: 0;
-                  }
-                  button{
-                    display: none;
-                  }
-                 }
-                 .slick-active{
-                    background-color: $main-color;
-              }
-          }
-     }
+        &__inner{
+            width: 100%;
+            img{
+                width: 60%;
+            }
+            .slick-dots{
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                margin-top: 10px;
+                padding: 0;
+                li{
+                    width: 20px;
+                    height: 10px;
+                    border-radius: 30%;
+                    background-color: white;
+                    border: 2px solid black;
+                    margin-right: 2px;
+                    &:nth-child(3){
+                        margin-right: 0;
+                    }
+                    button{
+                        display: none;
+                    }
+                    }
+                    .slick-active{
+                        background-color: $main-color;
+                }
+            }
+        }
 
  }
     .title{
@@ -105,6 +114,100 @@
             display: none;
         }
         
+    }
+    
+    .reviews{
+        &-comment{
+            &__img{
+                width: 140px;
+                height: 140px;
+            }
+            &__text{
+                font-size: 14px;
+            }
+            &__name{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .footer{
+        &__info{
+            width:340px;
+            height: 140px;
+            padding: 17px 30px 60px 30px;
+        }
+        &__social{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 767px){
+    .container{
+        width: 540px;
+    }
+    .promo{
+        padding-bottom: 60px;
+        &__wrapper{
+            align-items: center;
+        }
+        .button_main{
+            margin-top: 100px;
+        }
+    }
+    .consultation{
+        .title_left{
+            font-size: 27px;
+        }
+        &__descr{
+            font-size: 18px;
+        }
+        .button_submit{
+            font-size: 14px;
+        }
+    }
+    .carousel{
+        .slick-dots{
+            li{
+                height: 6px;
+            }
+        }
+    }
+    .catalog{
+        &__tab{
+            width: 150px;
+            height: 36px;
+            div{
+                font-size: 13px;
+                line-height: 35px;
+            }
+        }
+        &-item{
+            &__price{
+                font-size: 18px;
+            }
+            .button_mini{
+                width: 115px;
+                height: 34px;
+            }
+        }
+    }
+    .reviews{
+        &_comment{
+            margin-top: 70px;
+            &__text{
+                line-height: 15px;
+            }
+        }
+    }
+    .footer{
+        &__info{
+            display: none;
+        }
+    }
+    .title{
+        font-size: 24px;
     }
 }
 
